@@ -149,7 +149,41 @@ height: 250px;
 }
 .footer{
     background: url(footer_bg.png);
-    height: 50vh;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.top  {
+    padding-top: 70px;
+}
+.top ul li{
+    background: transparent;
+    color: #fff;
+}
+.right{
+    
+}
+.list-group-item i{
+    margin: 5px;
+    /* margin-left: 100px; */
+    justify-content: center;
+    align-items: center;
+}
+.mb-3 input{
+    background: transparent;
+    max-width: 300px;
+}
+.top ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #35ec63;
+}
+.body{
+    transition: 2s;
+}
+.body:hover{
+    background-color: rgb(16, 26, 26);
+    color: #fff;
+   
+}
+
