@@ -10,5 +10,95 @@
         
 .banner-section{
     background-size: contain;
+
 }
     }
+    @media only screen and (max-width:1000px){
+        .btn{
+            padding: 10px 99px;
+            background-color: rgb(118, 0, 94);
+            color: #fff;
+            border-radius: 30px;
+            text-align: center;
+            border: #fff solid 3px;
+    align-items: center;
+            margin-top: 12px;
+            margin-bottom: 5px;
+        }
+        
+.buttoncc a{
+    padding: 10px 99px;
+            background-color: rgb(118, 0, 94);
+            color: #fff;
+            border-radius: 30px;
+            text-align: center;
+            border: #fff solid 3px;
+    align-items: center;
+            margin-top: 12px;
+            margin-bottom: 5px;
+            text-decoration: none;
+}
+    }
+    
+
+    @media only screen and (max-width:1000px){
+.banner-section{
+    /* top: 30%;
+    bottom: 0;
+    left: 3%;
+    right: 0;
+    text-align: left;
+    width: 100%; */
+    margin-top: 50px;
+}
+.banner-content p{
+    color: rgb(16, 26, 26);
+    font-family: sans-serif;
+    font-size: small;
+    width: 180px;
+}
+
+.banner-content h3{
+    background-color: rgb(16, 26, 26);
+    width: fit-content;
+    font-size: 14px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.about-page{
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 90vh;
+    margin-bottom: 50px;
+}
+.text{
+    max-width: 28rem;
+    /* margin: 1rem; */
+    padding-top: 80px;
+    
+}
+.text h1{
+    margin-bottom: 30px;
+    
+}
+.text h5{
+    margin-bottom: 30px;
+}
+.text p{
+    
+    width: 199px;
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+}
+

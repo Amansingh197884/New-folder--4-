@@ -56,6 +56,10 @@
     font-family: sans-serif;
     
 }
+.banner-content h3{
+    background-color: rgb(16, 26, 26);
+    width: fit-content;
+}
 
 
 .banner-content p{
@@ -63,6 +67,14 @@
     font-family: sans-serif;
 }
 .btn{
+    padding: 9px 40px;
+    background-color: rgb(59, 118, 0);
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    border: #fff solid 3px;
+}
+.buttoncc a{
     padding: 9px 40px;
     background-color: rgb(59, 118, 0);
     color: #fff;
