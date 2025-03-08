@@ -1,30 +1,21 @@
-
-
-
-
-
-
-
-
-
-
-
-.navbar{
+.navbar {
     background: url(header-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     padding: 2rem 5rem;
-    
+
 }
-.header{
+
+.header {
     position: absolute;
     width: 100%;
     top: 2rem;
     left: 0;
     z-index: 2;
 }
-.navbar-nav .nav-link{
+
+.navbar-nav .nav-link {
     color: #fff;
     text-transform: uppercase;
     font-size: 16px;
@@ -33,40 +24,47 @@
     margin: 0 0.2rem;
     font-family: sans-serif;
 }
-.navbar-nav .nav-link:hover{
+
+.navbar-nav .nav-link:hover {
     color: chartreuse;
 }
-.container i{
+
+.container i {
     color: #fff;
 }
-.banner-section{
+
+.banner-section {
     background: url(banner-slide/Banner-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 90vh;
 }
-.banner-section .carousel-item{
+
+.banner-section .carousel-item {
     padding: 3rem 0;
-    height: 90vh    ;
+    height: 90vh;
 }
-.banner-content h1{
+
+.banner-content h1 {
     color: rgb(16, 26, 26);
     font-weight: 900;
     font-family: sans-serif;
-    
+
 }
-.banner-content h3{
+
+.banner-content h3 {
     background-color: rgb(16, 26, 26);
     width: fit-content;
 }
 
 
-.banner-content p{
+.banner-content p {
     color: rgb(16, 26, 26);
     font-family: sans-serif;
 }
-.btn{
+
+.btn {
     padding: 9px 40px;
     background-color: rgb(59, 118, 0);
     color: #fff;
@@ -74,7 +72,8 @@
     text-align: center;
     border: #fff solid 3px;
 }
-.buttoncc a{
+
+.buttoncc a {
     padding: 9px 40px;
     background-color: rgb(59, 118, 0);
     color: #fff;
@@ -82,7 +81,8 @@
     text-align: center;
     border: #fff solid 3px;
 }
-.banner-section .carousel-caption{
+
+.banner-section .carousel-caption {
     top: 30%;
     bottom: 0;
     left: 3%;
@@ -90,112 +90,189 @@
     text-align: left;
     width: 100%;
 }
-.banner-section .carousel-caption p{
+
+.banner-section .carousel-caption p {
     max-width: 40rem;
     margin-bottom: 2rem;
 }
-.card-body img{
+
+.card-body img {
     width: 70px;
 }
-.aa{
-    
+
+.aa {
+
     margin-bottom: 70px;
 }
-.about-page{
+
+.about-page {
     background: url(about/about-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 90vh;
 }
-.text{
+
+.text {
     max-width: 28rem;
     /* margin: 1rem; */
     padding-top: 80px;
-    
-}
-.text h1{
-    margin-bottom: 30px;
-    
-}
-.text h5{
-    margin-bottom: 30px;
-}
-.text p{
-    margin-bottom: 30px;
-}
-.cardd img{
-width: 180px;
 
 }
-.cardd{
+
+.text h1 {
+    margin-bottom: 30px;
+
+}
+
+.text h5 {
+    margin-bottom: 30px;
+}
+
+.text p {
+    margin-bottom: 30px;
+}
+
+.cardd img {
+    width: 180px;
+
+}
+
+.cardd {
     /* background: url(testimonial/testimonial-bg.png); */
 
 }
-.new-part{
+
+.new-part {
     background-color: rgba(213, 254, 205, 0.893);
     height: 100vh;
+    margin-bottom: 50px;
+    justify-content: space-between;
 }
-.name{
+
+.Shivangee {
     background: url(testimonial-bg.png);
+
+}
+
+.Shivangee img{
+    width: 550px;
+    height: 250px;
+}
+
+.About {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.About img {
+    width: 600px;
+    height: 300px;
+}
+.textt{
+  margin-bottom: 50px;
+}
+
+#about {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(https://png.pngtree.com/thumb_back/fh260/backgroun…growing-on-the-plant-in-garden-image_16975623.jpg)
     
 }
-.new-p{
+
+
+.new-p {
     justify-content: center;
     align-items: center;
-    
+    float: right;
+
 }
-.name img{
-width: 300px;
-height: 250px;
+
+.name img {
+    width: 300px;
+    height: 250px;
+
+
 }
-.card-text{
-}
-.space{
+
+.card-text {}
+
+.space {
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 15px;
 }
-.carde{
+
+.carde {
     margin: 20px;
 }
-.footer{
+
+.footer {
     background: url(footer_bg.png);
     height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.top  {
+
+.top {
     padding-top: 70px;
 }
-.top ul li{
+
+.top ul li {
     background: transparent;
     color: #fff;
 }
-.right{
-    
-}
-.list-group-item i{
+
+.right {}
+
+.list-group-item i {
     margin: 5px;
     /* margin-left: 100px; */
     justify-content: center;
     align-items: center;
 }
-.mb-3 input{
+
+.mb-3 input {
     background: transparent;
     max-width: 300px;
 }
-.top ul li a{
+
+.top ul li a {
     list-style: none;
     text-decoration: none;
     color: #35ec63;
 }
-.body{
+
+.body {
     transition: 2s;
 }
-.body:hover{
+
+.body:hover {
     background-color: rgb(16, 26, 26);
     color: #fff;
-   
+
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    margin-top: 50px;
+}
+.parent img{
+    width: 600px;
+    height: 300px;
+    margin-left: 50px;
+}
+    
+.div1 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
 }
 
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 4;
+}
