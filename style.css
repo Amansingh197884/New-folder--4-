@@ -99,10 +99,8 @@
 .card-body img {
     width: 70px;
 }
-
-.aa {
-
-    margin-bottom: 70px;
+.col-lg-3{
+    margin-bottom: 50px;
 }
 
 .about-page {
@@ -148,6 +146,7 @@
     height: 100vh;
     margin-bottom: 50px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .Shivangee {
@@ -275,4 +274,39 @@
     grid-column: span 2 / span 2;
     grid-row: span 4 / span 4;
     grid-column-start: 4;
+}
+/* aman */
+.home{
+    padding: 3rem 0;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background: url(about/about-banner.jpg);
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .home.content{
+    flex: 1 1 400px;
+    margin-top: 20px;
+}
+.content h1{
+    font-weight: bold;
+    margin-left: 23px;
+    font-size: 60px;
+    text-shadow: -1px  1px 1px black;
+}
+.content p{
+    margin-left: 23px;
+}
+.new-para{
+    max-width: 640px;
+}
+.homee{
+    background: url(about/about-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
