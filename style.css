@@ -310,3 +310,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.hello{
+    height: 300px;
+    width: 550px;
+}
+.hii{
+    background: url(banner-slide/top-banner.jpg);
+    margin-bottom: 50px;
+}
